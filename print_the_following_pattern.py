@@ -1,6 +1,5 @@
-a= int(input())
-st=['A','B','C','D','E','F','G','H','I','J','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-for i in range(a):
-    for j in range(a):
-        print(st[i],"",end="")
-    print(""),
+a=int(input())
+for i in range (a):
+    for j in range (i+1):
+        print(j+1,end="")
+    print("")
