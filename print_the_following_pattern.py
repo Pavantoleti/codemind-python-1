@@ -1,6 +1,7 @@
-a=int(input())
-lst=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-for i in range(a,0,-1):
-    for j in range(i):
-        print(lst[i-1],end=" ")
-    print(""),
+n=int(input())
+for i in range(n):
+    for j in range(1,n-1):
+        print(j,end="")
+    for j in range(1,n-2):
+        print(j,end="")
+    print()
