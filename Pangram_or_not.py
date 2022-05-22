@@ -1,13 +1,15 @@
-a=input()
-arr=list("abcdefghijklmnopqrstuvwxyz")
-f=0
+s=input()
+arr="abcdefghijklmnopqrstuvwxyz"
+c=v=0
 for i in arr:
-    if i in a or i.upper() in a:
-        f=1
+    if i in s or i.upper() in s:
+        c+=1
     else:
-        f=0
+        v=1
         break
-if f==1:
-    print("True")
+if(v!=1):
+    print(True)
 else:
-    print("False")
+    print(False)
+    
+    
